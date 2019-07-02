@@ -12,11 +12,13 @@ class School
     @roster
   end
   
+  
+  
 end
 
 
 
 school = School.new("Bayside High School")
 puts school.name
-
+school.add_student("Zach Morris", 9)
 school.roster
