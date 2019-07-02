@@ -18,4 +18,5 @@ end
 
 school = School.new("Bayside High School")
 puts school.name
+
 school.roster
